@@ -2,6 +2,8 @@ sudo: required
 services:
   - docker
 
+  # just the client is tested
+
 before_install:
   - docker build -t jojotechtest/react-test -f ./client/Dockerfile.dev ./client
 
