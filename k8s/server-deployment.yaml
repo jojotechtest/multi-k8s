@@ -15,5 +15,5 @@ spec:
       containers:
         - name: server
           image: jojotechtest/multi-server
-          port:
+          ports:
             - containerPort: 5000
