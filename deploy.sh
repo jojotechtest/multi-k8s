@@ -10,7 +10,7 @@ docker push jojotechtest/multi-client:$SHA
 docker push jojotechtest/multi-server:$SHA
 docker push jojotechtest/multi-worker:$SHA
 
-kubectl apply -f k8s
-kubectl set image deployments/client-deployment client=jojotechtest/multi-client:$SHA
-kubectl set image deployments/server-deployment server=jojotechtest/multi-server:$SHA
-kubectl set image deployments/worker-deployment worker=jojotechtest/multi-worker:$SHA
+#kubectl apply -f k8s
+#kubectl set image deployments/client-deployment client=jojotechtest/multi-client:$SHA
+#kubectl set image deployments/server-deployment server=jojotechtest/multi-server:$SHA
+#kubectl set image deployments/worker-deployment worker=jojotechtest/multi-worker:$SHA
